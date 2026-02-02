@@ -17,23 +17,19 @@ export default function Footer() {
               <div className="absolute inset-0 bg-red-600/20 blur-2xl"></div>
               <img src="/image/logo/awslpu.png" alt="AWS Cloud Club" className="h-14 relative z-10" />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3"><span className="text-red-600">&gt;</span> Dawn_CTF 2026</h3>
+            <h3 className="text-2xl font-bold text-white mb-3"><span className="text-red-600">&gt;</span> HORIZON 2026</h3>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-md">
-              A premier 12-hour overnight cybersecurity competition organized by AWS Cloud Club at Lovely Professional University. Join us for an unforgettable hacking experience.
+              A premier series of overnight competitions organized by AWS Cloud Club at Lovely Professional University. Join us for an unforgettable hacking experience.
             </p>
             
             <div className="flex gap-3">
-              <a href="https://linkedin.com/company/awscloudclublpu" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.linkedin.com/company/aws-cloud-community-lpu" target="_blank" rel="noopener noreferrer" 
                  className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
                 <i className="fab fa-linkedin text-lg text-red-600 group-hover:text-white"></i>
               </a>
-              <a href="https://instagram.com/awscloudclublpu" target="_blank" rel="noopener noreferrer" 
+              <a href="https://instagram.com/awscloudcommunity.lpu" target="_blank" rel="noopener noreferrer" 
                  className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
                 <i className="fab fa-instagram text-lg text-red-600 group-hover:text-white"></i>
-              </a>
-              <a href="https://twitter.com/awscloudclublpu" target="_blank" rel="noopener noreferrer" 
-                 className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
-                <i className="fab fa-twitter text-lg text-red-600 group-hover:text-white"></i>
               </a>
               <a href="mailto:club@awslpu.in" 
                  className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
@@ -109,7 +105,7 @@ export default function Footer() {
         <div className="relative pt-8 border-t border-red-900/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/50 text-sm text-center md:text-left">
-              &copy; 2026 Dawn_CTF. All rights reserved. Powered by <span className="text-red-600 font-medium">AWS Cloud Club LPU</span>.
+              &copy; 2026 Horizon Series. All rights reserved. Powered by <span className="text-red-600 font-medium">AWS Cloud Club LPU</span>.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="/privacy" rel="noopener noreferrer" className="text-white/50 hover:text-red-500 transition-colors">Privacy Policy</a>

@@ -32,20 +32,20 @@ return (
 
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-black/40 p-6 rounded-xl border border-red-900/30 hover:border-red-600 transition-all group">
-                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">500+</div>
+                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">900+</div>
                 <div className="text-white/70 text-sm">Active Members</div>
               </div>
               <div className="bg-black/40 p-6 rounded-xl border border-red-900/30 hover:border-red-600 transition-all group">
-                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">50+</div>
+                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">10+</div>
                 <div className="text-white/70 text-sm">Events Hosted</div>
               </div>
               <div className="bg-black/40 p-6 rounded-xl border border-red-900/30 hover:border-red-600 transition-all group">
-                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">10K+</div>
+                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">5K+</div>
                 <div className="text-white/70 text-sm">Students Reached</div>
               </div>
               <div className="bg-black/40 p-6 rounded-xl border border-red-900/30 hover:border-red-600 transition-all group">
-                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">AWS</div>
-                <div className="text-white/70 text-sm">Official Partner</div>
+                <div className="text-4xl font-bold text-red-600 mb-2 group-hover:animate-glitch">100+</div>
+                <div className="text-white/70 text-sm">Hours of Workshops</div>
               </div>
             </div>
           </div>

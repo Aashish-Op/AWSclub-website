@@ -1,0 +1,1 @@
+// Schedule API route | It will return the schedule data for the active event

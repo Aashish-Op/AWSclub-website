@@ -40,7 +40,7 @@ export default function ScheduleSection() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Workshop Day</h3>
-                <p className="text-white/60 text-sm">April 2, 2026</p>
+                <p className="text-white/60 text-sm">April 16, 2026</p>
               </div>
             </div>
             <div className="space-y-4">
@@ -70,7 +70,7 @@ export default function ScheduleSection() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Overnight CTF</h3>
-                <p className="text-white/60 text-sm">April 3-4, 2026</p>
+                <p className="text-white/60 text-sm">April 17-18, 2026</p>
               </div>
             </div>
             <div className="space-y-4">
@@ -102,8 +102,7 @@ export default function ScheduleSection() {
             <div>
               <h4 className="text-xl font-bold text-red-500 mb-2">IMPORTANT_NOTES.TXT</h4>
               <ul className="text-white/80 space-y-1 text-sm">
-                <li>• Participants must attend the workshop to be eligible for the CTF competition</li>
-                <li>• Teams of 2-4 members recommended for the CTF</li>
+                <li>• Teams of 2-4 members recommended for the events</li>
                 <li>• Food and refreshments provided throughout the event</li>
                 <li>• Bring your laptop and charger - WiFi will be provided</li>
               </ul>

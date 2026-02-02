@@ -17,7 +17,7 @@ export function NavigationBar() {
               <img src="/image/logo/awslpu.png" alt="AWS Cloud Club" className="h-12 relative z-10 group-hover:scale-105 transition-transform" />
             </div>
             <div className="hidden md:block">
-              <div className="text-white font-bold text-xl tracking-tight animate-flicker">Dawn CTF 2026</div>
+              <div className="text-white font-bold text-xl tracking-tight animate-flicker">Horizon 2026</div>
               <div className="text-red-500 text-xs font-medium">&gt; AWS Cloud Club LPU</div>
             </div>
           </Link>

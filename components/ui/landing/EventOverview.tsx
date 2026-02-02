@@ -1,36 +1,37 @@
 export default function EventOverview() {
   const features = [
     {
+      icon: "fas fa-lightbulb",
+      title: "Hands-On Learning",
+      description: "Gain practical experience through workshops, guided sessions, and real-world challenges"
+    },
+    {
+      icon: "fas fa-chalkboard-teacher",
+      title: "Expert-Led Workshops",
+      description: "Learn directly from industry professionals through structured technical sessions"
+    },
+    {
+      icon: "fas fa-code",
+      title: "Overnight Hackathon",
+      description: "Build innovative solutions during an intensive overnight development challenge"
+    },
+    {
       icon: "fas fa-shield-alt",
-      title: "Real-World Challenges",
-      description: "Solve practical cybersecurity problems inspired by industry scenarios"
-    },
-    {
-      icon: "fas fa-graduation-cap",
-      title: "Pre-Workshop Training",
-      description: "Learn from expert speakers before the competition begins"
-    },
-    {
-      icon: "fas fa-trophy",
-      title: "Exciting Prizes",
-      description: "Win cash prizes, certificates, and AWS Cloud Club swag"
-    },
-    {
-      icon: "fas fa-moon",
-      title: "Overnight Competition",
-      description: "12-hour intensive CTF experience from evening to morning"
+      title: "Capture The Flag (CTF)",
+      description: "Test your skills in a competitive cybersecurity challenge with real-world scenarios"
     },
     {
       icon: "fas fa-users",
       title: "Team Collaboration",
-      description: "Work with teammates to solve complex security challenges"
+      description: "Collaborate with peers to brainstorm, build, and solve complex technical problems"
     },
     {
       icon: "fab fa-aws",
-      title: "AWS Integration",
-      description: "Learn cloud security concepts with AWS technologies"
+      title: "AWS-Powered Experience",
+      description: "Explore cloud computing, security, and modern architectures using AWS technologies"
     }
   ];
+
 
   return (
     <section id="about" className="w-full bg-black py-20 px-4">
@@ -40,10 +41,10 @@ export default function EventOverview() {
             <span className="text-red-500 font-semibold text-sm uppercase tracking-widest">[ABOUT_EVENT.SYS]</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            <span className="text-red-600">&gt;</span> What is <span className="text-red-600">Dawn_CTF</span>?
+            <span className="text-red-600">&gt;</span> What is <span className="text-red-600">Horizon 2026</span>?
           </h2>
           <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed">
-            Dawn CTF 2026 is a premier 12-hour overnight Capture The Flag cybersecurity competition organized by AWS Cloud Club at Lovely Professional University. The event promotes practical cybersecurity skills through structured learning and competitive problem-solving, including a preparatory workshop followed by an intensive overnight CTF where participants apply technical knowledge to real-world security challenges.
+            Horizon 2026 is a flagship technical event series organized by AWS Cloud Club at Lovely Professional University, aimed at promoting hands-on learning, innovation, and competitive problem-solving. The series comprises preparatory workshops, technical sessions, and immersive overnight competitions, including a hackathon and a Capture The Flag (CTF). Through real-world problem statements, guided learning, and team-based challenges, participants gain practical exposure to cloud computing, cybersecurity, and modern development practices using AWS technologies. Horizon 2026 offers an inclusive platform for students across skill levels to learn, build, and compete in a structured and engaging environment.
           </p>
         </div>
 
@@ -63,7 +64,7 @@ export default function EventOverview() {
           <div className="bg-linear-to-r from-red-950/50 via-red-900/20 to-red-950/50 p-10 rounded-2xl border border-red-900/50 shadow-[0_0_50px_rgba(220,38,38,0.2)]">
             <h3 className="text-3xl font-bold text-white mb-4"><span className="text-red-600">&gt;</span> Ready to Test Your Skills?</h3>
             <p className="text-white/80 mb-6 max-w-2xl mx-auto">
-              Join hundreds of cybersecurity enthusiasts for an unforgettable overnight hacking experience. All skill levels welcome!
+              Join Horizon 2026 and challenge yourself with real-world problems, collaborate with peers, and gain hands-on experience in cloud computing and cybersecurity. Whether you're a beginner or an experienced hacker, there's something for everyone.
             </p>
             <a
               href="/register"

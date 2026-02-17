@@ -22,12 +22,6 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-10 pointer-events-none bg-linear-to-b from-transparent via-blue-950/30 to-blue-950" />
 
       <div className="relative z-20 flex flex-col items-center text-center px-4 py-20 max-w-5xl mx-auto">
-        <div className="animate-fade-in-up">
-          <div className="control-badge">
-            <span className="telemetry-dot active"></span>
-            STATUS: MISSION_CONTROL_ACTIVE
-          </div>
-        </div>
         
         <h1 className="text-6xl md:text-8xl font-bold text-white drop-shadow-lg tracking-tight mb-6 animate-fade-in-up" style={{animationDelay: '0.1s'}}>
           <span className="text-cyan-300">AWS Cloud Club</span>

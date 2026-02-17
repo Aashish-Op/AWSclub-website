@@ -4,11 +4,6 @@ return (
       <div className="grid-lines absolute inset-0"></div>
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
-          <div className="control-badge p-4 inline-block mb-6">
-            <span className="telemetry-dot active"></span>
-            [ABOUT_THE_CLUB] MISSION_STATUS: OPERATIONAL
-            <span className="telemetry-dot active"></span>
-          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             <span className="text-cyan-400">▸</span> AWS Cloud Club <span className="text-cyan-300">LPU</span>
           </h2>
@@ -53,12 +48,17 @@ return (
 
         <div className="mt-12 text-center">
           <div className="control-badge p-4 inline-block mb-6">
-            [MISSION_PARTNERS] AUTHORIZED_COLLABORATORS
+            Trusted By
           </div>
           <div className="flex justify-center items-center gap-4 flex-wrap">
-            {['AWS', 'Niwi.ai', '.XYZ Registry', 'LPU'].map((partner) => (
-              <div key={partner} className="bg-blue-900/50 px-6 py-3 border-2 border-cyan-400 uppercase text-xs font-mono text-blue-100 tracking-widest">
-                {partner}
+            {[
+              { name: 'AWS', logo: '/image/logo/aws.png' },
+              { name: 'Niwi.ai', logo: '/image/logo/niwi.png' },
+              { name: '.XYZ Registry', logo: '/image/logo/xyz.png' },
+              { name: 'LPU', logo: '/image/logo/lpu.png' }
+            ].map((partner) => (
+              <div key={partner.name} className="px-4 uppercase text-xs font-mono text-blue-100 tracking-widest flex flex-col items-center gap-2">
+          <img src={partner.logo} alt={partner.name} className="h-8" />
               </div>
             ))}
           </div>

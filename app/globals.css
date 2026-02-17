@@ -265,8 +265,7 @@
     background: #00E5FF;
     box-shadow: 0 0 8px rgba(0, 229, 255, 0.6);
   }
-  
-  /* Structural Grid Lines */
+
   .grid-lines {
     position: absolute;
     width: 100%;
@@ -278,8 +277,7 @@
       linear-gradient(90deg, transparent 24%, #0EA5E9 24%, #0EA5E9 26%, transparent 26%, transparent 74%, #0EA5E9 74%, #0EA5E9 76%, transparent 76%, transparent);
     background-size: 50px 50px;
   }
-  
-  /* Comic Borders - Aerospace Style */
+
   .comic-border {
     border: 3px solid;
     position: relative;
@@ -306,8 +304,7 @@
     border: 2px solid #0EA5E9;
     box-shadow: inset 0 0 4px rgba(14, 165, 233, 0.08);
   }
-  
-  /* Custom scrollbar - Mission Control Style */
+
   ::-webkit-scrollbar {
     width: 12px;
   }

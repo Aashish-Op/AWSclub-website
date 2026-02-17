@@ -4,6 +4,8 @@ import {
 import {
   MailIcon,
   Linkedin,
+  PinIcon,
+  Pi
 } from "lucide-react"
 
 export default function Footer() {
@@ -49,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-3">
-            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">[QUICKLINKS]</h4>
+            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">QUICKLINKS</h4>
             <ul className="space-y-2 font-mono text-xs">
               <li>
                 <a href="/#about" className="text-blue-200/70 hover:text-cyan-300 transition-colors">▸ About Club</a>
@@ -64,19 +66,19 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-4">
-            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">[CONNECT]</h4>
+            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">CONNECT</h4>
             <ul className="space-y-3 font-mono text-xs">
               <li className="flex gap-3">
-                <span className="text-cyan-400 min-w-fit">✉️ Email:</span>
-                <a href="mailto:club@awslpu.in" className="text-cyan-300 hover:text-cyan-200">club@awslpu.in</a>
+                <span className="text-cyan-400 min-w-fit">
+                  <MailIcon className="inline mr-2" size={18}/>
+                  <a href="mailto:club@awslpu.in" className="text-cyan-300 hover:text-cyan-200">club@awslpu.in</a>
+                </span>
               </li>
               <li className="flex gap-3">
-                <span className="text-cyan-400 min-w-fit">🌐 Web:</span>
-                <a href="https://awslpu.in" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200">awslpu.in</a>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-cyan-400 min-w-fit">📍 HQ:</span>
-                <span className="text-blue-200/80">LPU, Jalandhar,<br/>Punjab, India</span>
+                <span className="text-cyan-400 min-w-fit">
+                  <PinIcon className="inline mr-2" size={16}/>
+                  LPU, Jalandhar, Punjab, India
+                </span>
               </li>
             </ul>
           </div>
@@ -87,8 +89,8 @@ export default function Footer() {
             © 2026 AWS Cloud Club LPU | Building the next generation of cloud innovators | Powered by <span className="text-cyan-300">AWS</span>
           </p>
           <div className="flex gap-6">
-            <a href="/privacy" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">[Privacy_Policy]</a>
-            <a href="/terms" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">[Terms]</a>
+            <a href="/privacy" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">Privacy Policy</a>
+            <a href="/terms" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

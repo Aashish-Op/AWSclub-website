@@ -54,11 +54,6 @@ export default function WhatWeOffer() {
       <div className="grid-lines absolute inset-0"></div>
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         <div className="text-center mb-16 control-badge p-8 border-3 border-cyan-400 comic-border mx-auto max-w-4xl">
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <span className="telemetry-dot active"></span>
-            <span className="text-cyan-300 font-semibold text-sm uppercase tracking-widest">[CLUB_CAPABILITIES] TELEMETRY ACTIVE</span>
-            <span className="telemetry-dot active"></span>
-          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             <span className="text-cyan-300">▸</span> What We <span className="text-cyan-400">OFFER</span>
           </h2>

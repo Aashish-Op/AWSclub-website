@@ -28,17 +28,18 @@ export function NavigationBar() {
               PROGRAMS
               <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-cyan-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
             </Link>
-            <Link href="/learning-paths" className="text-blue-100 hover:text-cyan-300 transition-colors font-mono text-xs uppercase tracking-widest relative group hidden sm:block">
-              LEARN
+            <Link href="/#about" className="text-blue-100 hover:text-cyan-300 transition-colors font-mono text-xs uppercase tracking-widest relative group hidden sm:block">
+              About Us
               <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-cyan-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
             </Link>
-            <a
-              href="/auth/login"
-              rel="noopener noreferrer"
-              className="relative group px-5 py-2 border-2 border-cyan-400 bg-blue-900/60 hover:bg-blue-800 transition-all text-white font-mono text-xs uppercase tracking-widest"
-            >
-              <span className="relative z-10">LOGIN</span>
-            </a>
+            <Link href="/auth/login" className="text-blue-100 hover:text-cyan-300 transition-colors font-mono text-xs uppercase tracking-widest relative group">
+              LOGIN
+              <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-cyan-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+            </Link>
+            <Link href="/auth/register" className="text-blue-100 hover:text-cyan-300 transition-colors font-mono text-xs uppercase tracking-widest relative group">
+              REGISTER
+              <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-cyan-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+            </Link>
           </div>
         </div>
       </div>

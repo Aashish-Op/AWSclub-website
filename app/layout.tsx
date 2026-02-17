@@ -25,7 +25,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="relative min-h-screen bg-black font-sans antialiased overflow-x-hidden">
+      <body className="relative min-h-screen font-sans antialiased overflow-x-hidden" style={{background: 'linear-gradient(135deg, #0B1D3A 0%, #132E59 50%, #0B1D3A 100%)', backgroundAttachment: 'fixed'}}>
         <NavigationBar />
         <main>{children}</main>
       </body>

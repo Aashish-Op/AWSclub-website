@@ -1,116 +1,94 @@
+import { 
+  siInstagram,
+} from "simple-icons/icons";
+import {
+  MailIcon,
+  Linkedin,
+} from "lucide-react"
+
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-black text-white mt-20">
-      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-red-600/50 to-transparent"></div>
+    <footer className="relative w-full text-blue-100 mt-20" style={{background: 'linear-gradient(135deg, #0B1D3A 0%, #132E59 50%, #0B1D3A 100%)'}}>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-cyan-400/40"></div>
       
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, #dc2626 1px, transparent 0)',
-          backgroundSize: '32px 32px'
-        }}></div>
-      </div>
-
       <div className="relative max-w-7xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-12 gap-12 mb-12">
+        <div className="grid md:grid-cols-12 gap-8 mb-12 border-b-2 border-cyan-400/20 pb-12">
           <div className="md:col-span-5">
-            <div className="relative inline-block mb-6">
-              <div className="absolute inset-0 bg-red-600/20 blur-2xl"></div>
-              <img src="/image/logo/awslpu.png" alt="AWS Cloud Club" className="h-14 relative z-10" />
+            <div className="flex items-center gap-3 mb-6">
+              <img src="/image/logo/awslpu.png" alt="AWS Cloud Club" className="h-12" />
+              <div className="border-l-2 border-cyan-400/40 pl-3">
+                <h3 className="text-lg font-bold text-cyan-300 uppercase tracking-wider">AWS Cloud Club</h3>
+              </div>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3"><span className="text-red-600">&gt;</span> HORIZON 2026</h3>
-            <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-md">
-              A premier series of overnight competitions organized by AWS Cloud Club at Lovely Professional University. Join us for an unforgettable hacking experience.
+            <p className="text-blue-200/70 text-sm leading-relaxed mb-6 max-w-md font-mono">
+              India's premier AWS community at LPU. Join 5,000+ students mastering cloud computing, earning certifications, and launching careers in cloud technology.
             </p>
             
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/company/aws-cloud-community-lpu" target="_blank" rel="noopener noreferrer" 
-                 className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
-                <i className="fab fa-linkedin text-lg text-red-600 group-hover:text-white"></i>
+                 className="w-10 h-10 bg-blue-900/50 hover:bg-blue-800 border-2 border-cyan-400 flex items-center justify-center transition-all">
+                <Linkedin className="inline"/>
               </a>
               <a href="https://instagram.com/awscloudcommunity.lpu" target="_blank" rel="noopener noreferrer" 
-                 className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
-                <i className="fab fa-instagram text-lg text-red-600 group-hover:text-white"></i>
+                className="w-10 h-10 bg-blue-900/50 hover:bg-blue-800 border-2 border-cyan-400 flex items-center justify-center transition-all">
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                >
+                  <path d={siInstagram.path} />
+                </svg>
               </a>
               <a href="mailto:club@awslpu.in" 
-                 className="relative group w-11 h-11 bg-red-950/20 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all border border-red-900/30 hover:border-red-600">
-                <i className="fas fa-envelope text-lg text-red-600 group-hover:text-white"></i>
+                 className="w-10 h-10 bg-blue-900/50 hover:bg-blue-800 border-2 border-cyan-400 flex items-center justify-center transition-all">
+                <MailIcon className="text-white w-8 h-8" />
               </a>
             </div>
           </div>
 
           <div className="md:col-span-3">
-            <h4 className="text-base font-bold text-red-600 mb-5 uppercase tracking-widest">[NAVIGATION]</h4>
-            <ul className="space-y-3">
+            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">[QUICKLINKS]</h4>
+            <ul className="space-y-2 font-mono text-xs">
               <li>
-                <a href="#about" className="text-white/60 hover:text-red-500 transition-colors text-sm flex items-center gap-2 group">
-                  <i className="fas fa-chevron-right text-xs group-hover:translate-x-1 transition-transform text-red-600"></i>
-                  About Event
-                </a>
+                <a href="/#about" className="text-blue-200/70 hover:text-cyan-300 transition-colors">▸ About Club</a>
               </li>
               <li>
-                <a href="#schedule" className="text-white/60 hover:text-red-500 transition-colors text-sm flex items-center gap-2 group">
-                  <i className="fas fa-chevron-right text-xs group-hover:translate-x-1 transition-transform text-red-600"></i>
-                  Schedule
-                </a>
+                <a href="/register" className="text-blue-200/70 hover:text-cyan-300 transition-colors">▸ Join</a>
               </li>
               <li>
-                <a href="/register" className="text-white/60 hover:text-red-500 transition-colors text-sm flex items-center gap-2 group">
-                  <i className="fas fa-chevron-right text-xs group-hover:translate-x-1 transition-transform text-red-600"></i>
-                  Participate Now
-                </a>
-              </li>
-              <li>
-                <a href="/rules" className="text-white/60 hover:text-red-500 transition-colors text-sm flex items-center gap-2 group">
-                  <i className="fas fa-chevron-right text-xs group-hover:translate-x-1 transition-transform text-red-600"></i>
-                  Rules & Guidelines
-                </a>
+                <a href="/events" className="text-blue-200/70 hover:text-cyan-300 transition-colors">▸ Events</a>
               </li>
             </ul>
           </div>
 
           <div className="md:col-span-4">
-            <h4 className="text-base font-bold text-red-600 mb-5 uppercase tracking-widest">[CONTACT]</h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-sm">
-                <div className="w-10 h-10 bg-red-950/20 rounded-lg flex items-center justify-center shrink-0 border border-red-900/30">
-                  <i className="fas fa-envelope text-red-600"></i>
-                </div>
-                <div>
-                  <div className="text-white/40 text-xs mb-1">Email</div>
-                  <a href="mailto:club@awslpu.in" className="text-white hover:text-red-500 transition-colors font-medium">club@awslpu.in</a>
-                </div>
+            <h4 className="text-sm font-bold text-cyan-300 mb-4 uppercase tracking-widest border-b-2 border-cyan-400/40 pb-2">[CONNECT]</h4>
+            <ul className="space-y-3 font-mono text-xs">
+              <li className="flex gap-3">
+                <span className="text-cyan-400 min-w-fit">✉️ Email:</span>
+                <a href="mailto:club@awslpu.in" className="text-cyan-300 hover:text-cyan-200">club@awslpu.in</a>
               </li>
-              <li className="flex items-start gap-3 text-sm">
-                <div className="w-10 h-10 bg-red-950/20 rounded-lg flex items-center justify-center shrink-0 border border-red-900/30">
-                  <i className="fas fa-globe text-red-600"></i>
-                </div>
-                <div>
-                  <div className="text-white/40 text-xs mb-1">Website</div>
-                  <a href="https://awslpu.in" rel="noopener noreferrer" className="text-white hover:text-red-500 transition-colors font-medium">awslpu.in</a>
-                </div>
+              <li className="flex gap-3">
+                <span className="text-cyan-400 min-w-fit">🌐 Web:</span>
+                <a href="https://awslpu.in" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200">awslpu.in</a>
               </li>
-              <li className="flex items-start gap-3 text-sm">
-                <div className="w-10 h-10 bg-red-950/20 rounded-lg flex items-center justify-center shrink-0 border border-red-900/30">
-                  <i className="fas fa-map-marker-alt text-red-600"></i>
-                </div>
-                <div>
-                  <div className="text-white/40 text-xs mb-1">Location</div>
-                  <span className="text-white/80 font-medium">Lovely Professional University<br/>Punjab, India</span>
-                </div>
+              <li className="flex gap-3">
+                <span className="text-cyan-400 min-w-fit">📍 HQ:</span>
+                <span className="text-blue-200/80">LPU, Jalandhar,<br/>Punjab, India</span>
               </li>
             </ul>
           </div>
         </div>
         
-        <div className="relative pt-8 border-t border-red-900/30">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-white/50 text-sm text-center md:text-left">
-              &copy; 2026 Horizon Series. All rights reserved. Powered by <span className="text-red-600 font-medium">AWS Cloud Club LPU</span>.
-            </p>
-            <div className="flex gap-6 text-sm">
-              <a href="/privacy" rel="noopener noreferrer" className="text-white/50 hover:text-red-500 transition-colors">Privacy Policy</a>
-              <a href="/terms" rel="noopener noreferrer" className="text-white/50 hover:text-red-500 transition-colors">Terms of Service</a>
-            </div>
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 font-mono text-xs">
+          <p className="text-blue-300/60 text-center md:text-left">
+            © 2026 AWS Cloud Club LPU | Building the next generation of cloud innovators | Powered by <span className="text-cyan-300">AWS</span>
+          </p>
+          <div className="flex gap-6">
+            <a href="/privacy" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">[Privacy_Policy]</a>
+            <a href="/terms" rel="noopener noreferrer" className="text-blue-300/60 hover:text-cyan-300 transition-colors">[Terms]</a>
           </div>
         </div>
       </div>
